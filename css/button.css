@@ -1,0 +1,19 @@
+.btn {
+  width: 14.75rem;
+  height: 3.5rem;
+  background: #FFFFFF;
+  border-radius: 35px;
+  font: 1.2rem 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #38A3F1;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: #FFFFFF;
+  -webkit-transition: background-color 200ms linear, color 200ms linear;
+  transition: background-color 200ms linear, color 200ms linear;
+}
